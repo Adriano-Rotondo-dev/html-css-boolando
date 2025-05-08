@@ -71,7 +71,20 @@ img.product{
     width: calc(100% / 12 * 4);
     padding: 1rem;
 }
+.tag{
+    color:var(--content-discount-text-color);
+    padding:5px;
+    font-weight: 600;
+    width:fit-content;
 
+}
+.discount{
+    background-color: var(--content-discount-bg-color);
+}
+.sostenibility{
+    background-color:var(--content-eco-bg-color) ;
+    
+}
 /*Footer*/
 footer{
     background-color: var(--content-footer-bg);
