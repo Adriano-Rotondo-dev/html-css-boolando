@@ -72,6 +72,10 @@ img.product{
     padding: 1rem;
 }
 .favorite{
+    position: absolute;
+    top: 10px;
+    right:0px;
+    z-index: 1;
     display: flex;
     color: black;
     background-color: white;
@@ -83,6 +87,10 @@ img.product{
     padding:5px;
     font-weight: 600;
     width:fit-content;
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    
 
 }
 .discount{
@@ -111,7 +119,7 @@ img.product{
     position: relative;
     img.hover-product {
         position: absolute;
-        top:1.7rem;
+        top:0rem;
         display: none;
         max-width: 100%;
     }
