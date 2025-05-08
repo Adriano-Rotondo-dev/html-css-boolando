@@ -8,20 +8,15 @@
 /*UTILS*/
 *{
     font-family: Arial, Helvetica, sans-serif;
+    border:1px dashed red;
 }
-.debug{
-
-    .container {
+.container {
         max-width: 1200px;
-        max-height:100px;
-        margin: 0 auto;
-        
+        width:80%;
+        margin: 0 auto;        
     }
-    .border{
-        border:1px dashed black;
 
-    }
-}
+
  :root {
     --navbar-bg-color: #FF6900;
     --navbar-font-color: white;
@@ -50,9 +45,7 @@ ul.gender-clothing{
 li{
     list-style-type: none;
     align-items: center;
-    color:var(--navbar-font-color)
-
-    
+    color:var(--navbar-font-color);    
 }
 /*Header*/
 .navbar{
@@ -74,6 +67,9 @@ li{
 }
 
 /*Main*/
+img.product{
+    max-width: 50%;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
