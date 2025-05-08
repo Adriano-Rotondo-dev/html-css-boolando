@@ -71,6 +71,12 @@ img.product{
     width: calc(100% / 12 * 4);
     padding: 1rem;
 }
+.favorite{
+    display: flex;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
 .tag{
     color:var(--content-discount-text-color);
     padding:5px;
@@ -82,8 +88,23 @@ img.product{
     background-color: var(--content-discount-bg-color);
 }
 .sostenibility{
-    background-color:var(--content-eco-bg-color) ;
-    
+    background-color:var(--content-eco-bg-color);  
+}
+.item-name{
+    font-weight: 300;
+}
+.item-theme{
+    font-weight: 700;
+}
+.price-tag{
+    color: var(--content-mark-text-color);
+    font-weight: 600;
+    .original-price{
+        color: black;
+        text-decoration-line: line-through;
+        font-weight: 300;
+        margin-left: 3px;
+    }
 }
 /*Footer*/
 footer{
