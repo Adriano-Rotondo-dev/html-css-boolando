@@ -75,9 +75,22 @@ img.product{
 /*Footer*/
 footer{
     background-color: var(--content-footer-bg);
+    min-height: 50px;
+    justify-content: space-between;
+;
+}
+.legal {
+    color:white;
+    font-weight:600 ;
+}
+.ul-legal{
+    color:white;
 }
 .social-info{
     justify-content: flex-end;
-    color: white;
-    
+    color: white;    
+}
+a{
+    color:white;
+    text-decoration: none;
 }
