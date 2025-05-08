@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Adriano Rotondo">
     <meta name="description" content="esercitazione Boolando">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Boolando</title>
 </head>
 <body class="debug">
 <!-- Header content NAVBAR -->
-    <header class="navbar container d-flex">
-        <ul class="gender-clothing border d-flex">
+    <header class="navbar d-flex">
+        <ul class="gender-clothing  d-flex">
             <li class="woman-clothing">Donna</li>
             <li class="man-clothing">Uomo</li>
             <li class="child-clothing">Bambino</li>
@@ -20,10 +20,10 @@
         <div class="logo">
             <img src="./img/boolean-logo.png" alt="boolean-logo" class="boolean">
         </div>
-        <ul class="user container d-flex">
-            <li class="account">User</i> </li>
-            <li class="favorites"> Favorites </span> </li>
-            <li class="shopping-cart"> Shopping bag </li>
+        <ul class="user  d-flex">
+            <li class="account"><i class="fa-regular fa-user"></i></li>
+            <li class="favorites"><i class="fa-regular fa-heart"></i></li>
+            <li class="shopping-cart"> <i class="fas fa-shopping-bag"></i> </li>
         </ul>
     </header>
     <!-- MAIN CONTENT -->
@@ -32,34 +32,52 @@
 
         <div class="container">
             <div class="row">
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                        <img class="product" src="img/1.webp" alt="1">
+                       <div class="item-name">Levi's</div>
+                       <div class="item-theme">RELAXED FIT TEE UNISEX</div>
+                       <div class="price-tag">14,99€<span class="original-price">29,99€</span></div>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                         <img class="product" src="img/2.webp" alt="2">
+                        <div class="item-name">Guess</div>
+                       <div class="item-theme">ROSES TEE</div>
+                       <div class="price-tag">20,99€<span class="original-price">29,99€</span></div>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                        <img class="product" src="img/3.webp" alt="3">
+                       <div class="item-name">Come Zucchero Filato</div>
+                       <div class="item-theme">VOGLIA DI COLORI PASTELLO</div>
+                       <div class="price-tag">129,99€<span class="original-price">184,99€</span></div>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                         <img class="product" src="img/4.webp" alt="4">
+                        <div class="item-name">Levi's</div>
+                       <div class="item-theme">TEE UNISEX</div>
+                       <div class="price-tag">14,99€<span class="original-price">29,99€</span></div>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                         <img class="product" src="img/5.webp" alt="5">
+                        <div class="item-name">Maya Deluxe</div>
+                       <div class="item-theme">STRIPE BODICE</div>
+                       <div class="price-tag">99,99€</div>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-4">
                     <div class="card">
                         <img class="product" src="img/6.webp" alt="6">
+                        <div class="item-name">Esprit</div>
+                       <div class="item-theme">MAGLIONE - BLACK</div>
+                       <div class="price-tag">29,99€</div>
                     </div>
                 </div>
             </div>

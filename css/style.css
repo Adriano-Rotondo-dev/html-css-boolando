@@ -36,12 +36,6 @@ ul{
     gap: 20px;
     font-weight: 500;
 }
-ul.gender-clothing{ 
-    margin-left: 20%;
- }
- ul.user{
-    margin-right: 20%;
- }
 li{
     list-style-type: none;
     align-items: center;
@@ -50,16 +44,14 @@ li{
 /*Header*/
 .navbar{
     background-color: var(--navbar-bg-color);
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-around;
     min-height:50px;
     position: sticky;
     .logo {
         display: flex;
-        max-height: 50%;
-        .boolean {
-            max-width: 30%;
-            margin:1rem auto;
+            .boolean {
+            max-width:30%;
+            margin:10px auto;
         }
         
     }
@@ -68,7 +60,7 @@ li{
 
 /*Main*/
 img.product{
-    max-width: 50%;
+    max-width: 100%;
 }
 .row{
     display: flex;
