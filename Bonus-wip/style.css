@@ -1,0 +1,157 @@
+/* CSS RESET */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*UTILS*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px dashed transparent;
+}
+.container {
+        max-width: 1200px;
+        width:80%;
+        margin: 0 auto;        
+    }
+
+
+ :root {
+    --navbar-bg-color: #FF6900;
+    --navbar-font-color: white;
+    --content-main-text-color: black;
+    --content-mark-text-color: red ;
+    --content-discount-bg-color: red;
+    --content-discount-text-color: white;
+    --content-eco-bg-color: green;
+    --content-footer-bg: #1A1A1A;
+ }
+
+ .d-flex{
+    display: flex;
+ }
+ul{
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+li{
+    list-style-type: none;
+    align-items: center;
+    color:var(--navbar-font-color);    
+}
+/*Header*/
+.navbar{
+    background-color: var(--navbar-bg-color);
+    justify-content: space-around;
+    min-height:50px;
+    position: sticky;
+    .logo {
+        display: flex;
+            .boolean {
+            max-width:30%;
+            margin:10px auto;
+        }
+        
+    }
+
+}
+
+/*Main*/
+img.product{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+    padding: 1rem;
+}
+.favorite{
+    position: absolute;
+    top: 10px;
+    right:0px;
+    z-index: 1;
+    display: flex;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.favorite:hover{
+    color:red;
+}
+.tag-position{
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    display: flex;
+    gap: 5px;
+
+}
+.tag{
+    color:var(--content-discount-text-color);
+    padding:5px;
+    font-weight: 600;
+    width:fit-content;
+}
+.discount{
+    background-color: var(--content-discount-bg-color);
+}
+.sostenibility{
+    background-color:var(--content-eco-bg-color);  
+}
+.item-name{
+    font-weight: 300;
+}
+.item-theme{
+    font-weight: 700;
+}
+.price-tag{
+    color: var(--content-mark-text-color);
+    font-weight: 600;
+    .original-price{
+        color: black;
+        text-decoration-line: line-through;
+        font-weight: 300;
+        margin-left: 3px;
+    }
+}
+.card{
+    position: relative;
+    img.hover-product {
+        position: absolute;
+        top:0rem;
+        display: none;
+        max-width: 100%;
+    }
+}
+.card:hover img.hover-product {
+    display: block;
+  }
+/*Footer*/
+footer{
+    background-color: var(--content-footer-bg);
+    min-height: 50px;
+    justify-content: space-between;
+;
+}
+.legal {
+    color:white;
+    font-weight:600 ;
+}
+.ul-legal{
+    color:white;
+}
+.social-info{
+    justify-content: flex-end;
+    color: white;    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
