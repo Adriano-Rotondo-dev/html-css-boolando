@@ -4,3 +4,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*UTILS*/
+.debug{
+
+    .container {
+        max-width: 1200;
+        border:1px dashed red;
+        min-height: 400px;
+        
+    }
+}
+ :root {
+    --navbar-bg-color: #FF6900;
+    --navbar-font-color: white;
+    --content-main-text-color: black;
+    --content-mark-text-color: red ;
+    --content-discount-bg-color: red;
+    --content-discount-text-color: white;
+    --content-eco-bg-color: green;
+    --content-footer-bg: #1A1A1A;
+ }
+
+/*Header*/
+.navbar
+
+
+
+/*Main*/
+
+
+/*Footer*/
