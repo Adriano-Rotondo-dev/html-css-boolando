@@ -8,7 +8,7 @@
 /*UTILS*/
 *{
     font-family: Arial, Helvetica, sans-serif;
-    border:1px dashed red;
+    border:1px dashed transparent;
 }
 .container {
         max-width: 1200px;
@@ -82,16 +82,19 @@ img.product{
     padding: 5px;
     cursor: pointer;
 }
+.tag-position{
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    display: flex;
+    gap: 5px;
+
+}
 .tag{
     color:var(--content-discount-text-color);
     padding:5px;
     font-weight: 600;
     width:fit-content;
-    position: absolute;
-    bottom: 100px;
-    z-index: 1;
-    
-
 }
 .discount{
     background-color: var(--content-discount-bg-color);
