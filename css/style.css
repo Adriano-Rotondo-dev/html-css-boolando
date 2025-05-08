@@ -107,6 +107,18 @@ img.product{
         margin-left: 3px;
     }
 }
+.card{
+    position: relative;
+    img.hover-product {
+        position: absolute;
+        top:1.7rem;
+        display: none;
+        max-width: 100%;
+    }
+}
+.card:hover img.hover-product {
+    display: block;
+  }
 /*Footer*/
 footer{
     background-color: var(--content-footer-bg);
