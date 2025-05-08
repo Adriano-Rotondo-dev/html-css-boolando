@@ -76,6 +76,7 @@ img.product{
     color: black;
     background-color: white;
     padding: 5px;
+    cursor: pointer;
 }
 .tag{
     color:var(--content-discount-text-color);
