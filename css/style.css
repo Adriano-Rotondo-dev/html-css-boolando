@@ -82,6 +82,9 @@ img.product{
     padding: 5px;
     cursor: pointer;
 }
+.favorite:hover{
+    color:red;
+}
 .tag-position{
     position: absolute;
     bottom: 100px;
