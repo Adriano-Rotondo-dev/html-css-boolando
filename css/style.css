@@ -73,3 +73,11 @@ img.product{
 }
 
 /*Footer*/
+footer{
+    background-color: var(--content-footer-bg);
+}
+.social-info{
+    justify-content: flex-end;
+    color: white;
+    
+}
