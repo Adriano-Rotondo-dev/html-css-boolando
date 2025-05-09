@@ -78,6 +78,7 @@ img.product{
     display: flex;
     color: black;
     background-color: white;
+    border:1px solid transparent;
     padding: 5px;
     cursor: pointer;
 }
